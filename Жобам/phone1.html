@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./components/css/style.css">
+    <title>Тасбих Жоба</title>
+</head>
+<body>
+
+    <!-- Бастау беті -->
+    <div id="start-page" class="start-page">
+        <img class="img_adet" src="./components/img/adet.png" alt="">
+        <button class="start-btn" id="start-btn">Бастау</button>
+    </div>
+
+    <!-- Негізгі бет -->
+    <div class="day-counter" id="day-counter">
+        <span id="day1">1</span>
+        <span id="day2">2</span>
+        <span id="day3">3</span>
+        <span id="day4">4</span>
+        <span id="day5">5</span>
+        <span id="day6">6</span>
+        <span id="day7">7</span>
+    </div>
+
+    <div id="salawat" class="salawat">
+            <p>«Аллаһумма салли ‘алә Мухаммәдин уа ‘алә әәли Мухаммәд, кәмәә саллайтә ‘алә Ибраһимә уа ‘алә әәли
+                Ибраһим, иннәкә хамидум мәжиид»</p>Мағынасы: Аллаһым! Ибраһимге және Ибраһимнің жанұясына салауат еткенің
+            сияқты, хазірет Мұхаммедке және оның жанұясына салауат ет. Расында, Сен – барлық жағынан мақтауға
+            лайықсың әрі даңқың ұлы. <p> «Аллаһума бәрик ‘алә Мухаммадин уа ‘алә әәли Мухаммад, кәмә бәәрактә ‘алә
+                Ибраһима уа ‘алә әәли Ибраһим, иннәкә хамидум мәжид»</p>Мағынасы: Аллаһым! Ибраһимге және Ибраһимнің
+            жанұясына берекет бергенің сияқты, хазірет Мұхаммедке және оның жанұясына да берекет бер. Расында, Сен –
+            барлық жағынан мақтауға лайықсың әрі даңқың ұлы.Хазіреті Мұхаммедтің Алланың құлы әрі пайғамбары екеніне
+            куәлік етемін.
+    </div>
+
+    <div id="tasbih-container">
+        <div class="circle">
+            <div class="noise animated tasbih-btn" onclick="countTasbih()"><div id="tasbih-count">0/10</div></div>
+           </div>
+        <!-- <button class='glowing-btn'><span class='glowing-txt'></button> -->
+        <!-- <button class="tasbih-btn" onclick="countTasbih()"></button> -->
+    </div>
+
+    <div id="congrats"><img class="congrats" src="./components/img/jaraysin.png" alt=""><button class="start-btn" id="start_end">Жалғастыру</button></div>
+
+
+
+    <script src="./components/js/main.js"></script>
+</body>
+</html>
